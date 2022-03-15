@@ -1,0 +1,47 @@
+@import '../constants.scss';
+
+.stakeContianer {
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    .section {
+        @include sectionBase;
+    }
+    h1 {
+        font-size: 75px;
+        font-style: bold;
+        margin-bottom: 5%;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    .claimBtn {
+        @include primaryButton;
+        font-size: 20px;
+        width: 200px;
+    }
+    .showBtn {
+        @include primaryButton;
+    }
+    .allOrNoneBtn {
+        @include secondaryButton;
+        width: 250px;
+    }
+    .stakingImage {
+        height: 250px;
+    }
+    .stakeListOption {
+        text-align: left;
+        font-size: x-large;
+        margin: 3px;
+        padding-left: 5%;
+        img {
+            height: 35px;
+            width: 35px;
+            margin-right: 10px;
+        }
+    }
+}

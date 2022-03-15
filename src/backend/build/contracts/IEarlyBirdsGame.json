@@ -1,0 +1,235 @@
+{
+  "contractName": "IEarlyBirdsGame",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getGen0MintingStatus",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getGen0MintingStatus\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/IEarlyBirdsGame.sol\":\"IEarlyBirdsGame\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/IEarlyBirdsGame.sol\":{\"keccak256\":\"0x90335998c3c39c28dd56c791bd25a3b57027038ce01b7483ff070204fd7e8bde\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6eb1135d246b79ac717652be1f28f0d1973982228fce892a7459b942cdd28334\",\"dweb:/ipfs/QmNkMPo2DVKrc9BqDzgE4xU2vXQ9g1GgkWMvbHFAiV1eWL\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ninterface IEarlyBirdsGame {\r\n    function getGen0MintingStatus() external view returns (bool);\r\n}",
+  "sourcePath": "C:\\Users\\Teddy Ingrassia\\Development\\worm-game\\src\\backend\\contracts\\interfaces\\IEarlyBirdsGame.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/IEarlyBirdsGame.sol",
+    "exportedSymbols": {
+      "IEarlyBirdsGame": [
+        10193
+      ]
+    },
+    "id": 10194,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 10187,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:45"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 10193,
+        "linearizedBaseContracts": [
+          10193
+        ],
+        "name": "IEarlyBirdsGame",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "d94f02d5",
+            "id": 10192,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getGen0MintingStatus",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10188,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "124:2:45"
+            },
+            "returnParameters": {
+              "id": 10191,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10190,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10192,
+                  "src": "150:4:45",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 10189,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "150:4:45",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "149:6:45"
+            },
+            "scope": 10193,
+            "src": "95:61:45",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 10194,
+        "src": "62:97:45"
+      }
+    ],
+    "src": "35:124:45"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/interfaces/IEarlyBirdsGame.sol",
+    "exportedSymbols": {
+      "IEarlyBirdsGame": [
+        10193
+      ]
+    },
+    "id": 10194,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 10187,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:45"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 10193,
+        "linearizedBaseContracts": [
+          10193
+        ],
+        "name": "IEarlyBirdsGame",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "d94f02d5",
+            "id": 10192,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getGen0MintingStatus",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10188,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "124:2:45"
+            },
+            "returnParameters": {
+              "id": 10191,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10190,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10192,
+                  "src": "150:4:45",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 10189,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "150:4:45",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "149:6:45"
+            },
+            "scope": 10193,
+            "src": "95:61:45",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 10194,
+        "src": "62:97:45"
+      }
+    ],
+    "src": "35:124:45"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-03-08T22:16:53.929Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

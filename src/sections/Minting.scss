@@ -1,0 +1,79 @@
+@import '../constants.scss';
+
+.mintingContianer {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    color: $primaryText;
+    .section {
+        @include sectionBase;
+    }
+    #costSpan {
+        margin-top: 1%;
+        #left {
+            display: inline;
+            float: left;
+        }
+        #right {
+            display: inline;
+            float: right;
+        }
+    }
+    h1 {
+        font-size: 75px;
+        font-style: bold;
+        margin-bottom: 5%;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    .mintBtn {
+        @include primaryButton;
+        width: 250px;
+        height: 50px;
+        font-size: x-large;
+        text-align: center;
+        .loader {
+            display: flex;
+            margin: auto;
+        }
+    }
+    .buyBtn {
+        @include primaryButton;
+    }
+    #autoStakeCheck {
+        @include secondaryButton;
+    }
+    .secondBtn {
+        @include secondaryButton;
+        width: 100px;
+    }
+    .stakingImage {
+        height: 250px;
+    }
+    .progress {
+        padding-left: 0px;
+        margin: auto;
+        width: 85%;
+        box-shadow: 0px 0px 5px black;
+    }
+    .progress-bar {
+        background-color: $secondary;
+    }
+}
+.learnModal {
+    .modal-content {
+        background-color: $light-baground;
+        box-shadow: 0px 0px 5px black;
+        color: $primaryText;
+    }
+    .closeBtn {
+        @include secondaryButton;
+        width: 100px;
+    }
+}

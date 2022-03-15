@@ -1,0 +1,473 @@
+{
+  "contractName": "IRandomNumberConsumer",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getRandomNumber",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "randomizeSeed",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getCurrentSeed",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getCurrentSeed\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getRandomNumber\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"randomizeSeed\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/IRandomNumberConsumer.sol\":\"IRandomNumberConsumer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/IRandomNumberConsumer.sol\":{\"keccak256\":\"0x5235160bf26bde22b3b0ce46a9aaad8b62aff6dc2973e4ed6fc791a19d67b5d2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://34bf0a37c70f8b728635bc0a34015790c6048c24b37991b5644c536e025da24f\",\"dweb:/ipfs/QmSrUXYPf3fKK2BoWQU1Dz6UHfqHcnoPRuQhj5cYgsgTLj\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ninterface IRandomNumberConsumer {\r\n    function getRandomNumber() external returns (bytes32);\r\n    function randomizeSeed() external returns (uint256);\r\n    function getCurrentSeed() external returns (uint256);\r\n}",
+  "sourcePath": "C:\\Users\\Teddy Ingrassia\\Development\\worm-game\\src\\backend\\contracts\\interfaces\\IRandomNumberConsumer.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/IRandomNumberConsumer.sol",
+    "exportedSymbols": {
+      "IRandomNumberConsumer": [
+        10340
+      ]
+    },
+    "id": 10341,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 10324,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:48"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 10340,
+        "linearizedBaseContracts": [
+          10340
+        ],
+        "name": "IRandomNumberConsumer",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "dbdff2c1",
+            "id": 10329,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getRandomNumber",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10325,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "125:2:48"
+            },
+            "returnParameters": {
+              "id": 10328,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10327,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10329,
+                  "src": "146:7:48",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 10326,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "146:7:48",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "145:9:48"
+            },
+            "scope": 10340,
+            "src": "101:54:48",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "c0982f50",
+            "id": 10334,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "randomizeSeed",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10330,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "183:2:48"
+            },
+            "returnParameters": {
+              "id": 10333,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10332,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10334,
+                  "src": "204:7:48",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 10331,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "204:7:48",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "203:9:48"
+            },
+            "scope": 10340,
+            "src": "161:52:48",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "d614dd92",
+            "id": 10339,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getCurrentSeed",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10335,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "242:2:48"
+            },
+            "returnParameters": {
+              "id": 10338,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10337,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10339,
+                  "src": "263:7:48",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 10336,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "263:7:48",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "262:9:48"
+            },
+            "scope": 10340,
+            "src": "219:53:48",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 10341,
+        "src": "62:213:48"
+      }
+    ],
+    "src": "35:240:48"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/interfaces/IRandomNumberConsumer.sol",
+    "exportedSymbols": {
+      "IRandomNumberConsumer": [
+        10340
+      ]
+    },
+    "id": 10341,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 10324,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:48"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 10340,
+        "linearizedBaseContracts": [
+          10340
+        ],
+        "name": "IRandomNumberConsumer",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "dbdff2c1",
+            "id": 10329,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getRandomNumber",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10325,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "125:2:48"
+            },
+            "returnParameters": {
+              "id": 10328,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10327,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10329,
+                  "src": "146:7:48",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 10326,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "146:7:48",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "145:9:48"
+            },
+            "scope": 10340,
+            "src": "101:54:48",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "c0982f50",
+            "id": 10334,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "randomizeSeed",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10330,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "183:2:48"
+            },
+            "returnParameters": {
+              "id": 10333,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10332,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10334,
+                  "src": "204:7:48",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 10331,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "204:7:48",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "203:9:48"
+            },
+            "scope": 10340,
+            "src": "161:52:48",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "d614dd92",
+            "id": 10339,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getCurrentSeed",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10335,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "242:2:48"
+            },
+            "returnParameters": {
+              "id": 10338,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10337,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10339,
+                  "src": "263:7:48",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 10336,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "263:7:48",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "262:9:48"
+            },
+            "scope": 10340,
+            "src": "219:53:48",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 10341,
+        "src": "62:213:48"
+      }
+    ],
+    "src": "35:240:48"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-03-08T22:16:53.931Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

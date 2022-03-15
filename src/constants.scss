@@ -1,0 +1,66 @@
+$primaryText: white;
+$accent-color: #cbdd8c;
+$dark-backgrond: #582f0eff;
+$background: #7f4f24ff;
+$light-baground: #936639ff;
+$secondary: #a4ac86ff;
+$primary: #656d4aff;
+$tertiary: #414833ff;
+$dark-accent: #333d29ff;
+
+@mixin sectionBase {
+    padding: 10px;
+    background-color: $light-baground;
+    height: 45%;
+    margin: 1% 5% 1% 5%;
+    border: $tertiary;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 0px 0px 0px 15px $dark-accent;
+}
+
+@mixin primaryButton {
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: $secondary;
+    border-style: solid;
+    border-width: 5px;
+    background-color: $primary;
+    color: $primaryText;
+    box-shadow: 0px 0px 5px black;
+    &:hover {
+        border: $accent-color;
+        border-style: solid;
+        border-width: 5px;
+        background-color: $secondary;
+        color: $primaryText;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    &:focus {
+        box-shadow: 0px 0px;
+    }
+}
+@mixin secondaryButton {
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: $primary;
+    border-style: solid;
+    border-width: 5px;
+    background-color: $secondary;
+    box-shadow: 0px 0px 5px black;
+    color: $primaryText;
+    &:hover {
+        border: $accent-color;
+        border-style: solid;
+        border-width: 5px;
+        background-color: $primary;
+        color: $primaryText;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

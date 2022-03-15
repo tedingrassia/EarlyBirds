@@ -1,0 +1,87 @@
+@import '../constants.scss';
+
+.numbersContainer {
+    height: 50%;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    color: $primaryText;
+    .section {
+        @include sectionBase;
+    }
+    h1 {
+        font-size: 75px;
+        font-style: bold;
+        margin-bottom: 5%;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    .list {
+        list-style: none;
+        margin: 5%;
+        width: 90%;
+        padding: 3px;
+        .statsRow {
+            background-color: $tertiary;
+            width: 95%;
+            margin: auto;
+            margin-top: 1%;
+            h2 {
+                display: inline;
+                float: left;
+                font-size: 25px;
+                color: $primaryText;
+            }
+            div {
+                display: inline;
+                float: right;
+                font-weight: 600;
+                font-size: 25px;
+                color: $accent-color;
+            }
+        }
+        .leaderBoardRow {
+            h2 {
+                color: $primaryText;
+                font-size: 25px;
+            }
+            width: 95%;
+            margin: auto;
+            background-color: $tertiary;
+            margin-bottom: 2%;
+            .leaderBoardPersonRow {
+                width: 95%;
+                padding: 0px;
+                margin: auto;
+                border: 0px;
+                h3 {
+                    display: inline;
+                    float: left;
+                    font-size: 15px;
+                    color: $primaryText;
+                }
+                span {
+                    display: inline;
+                    float: right;
+                    margin-right: 5px;
+                    font-weight: 500;
+                    font-size: 15px;
+                    color: $accent-color;
+                }
+                background-color: $tertiary;
+            }
+            border-bottom: 2px solid $accent-color;
+        }
+        .feedRow {
+            width: 95%;
+            margin: auto;
+            background-color: $light-baground;
+            margin-top: 1%;
+            border: 2px solid $accent-color;
+        }
+    }
+}

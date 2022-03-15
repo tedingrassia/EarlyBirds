@@ -1,0 +1,35 @@
+@import './constants.scss';
+
+@import url('http://fonts.cdnfonts.com/css/mrs-kichinto');
+
+.App {
+    height: 100%;
+    text-align: center;
+    background-color: #582f0e;
+    font-family: 'Mrs Kichinto', sans-serif;
+    color: $primaryText;
+    #title {
+        font-size: 200px;
+        text-shadow: 5px 5px $accent-color;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+    .mainSection {
+        margin-bottom: 5%;
+    }
+    .bg-light {
+        background-color: $light-baground !important;
+        border-radius: 5px;
+    }
+    .connectBtn {
+        @include primaryButton;
+    }
+}
+html,
+body,
+#app,
+#app > div {
+    height: 100%;
+}
